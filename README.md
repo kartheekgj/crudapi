@@ -6,16 +6,18 @@ After downloading do the following steps to start the application
 
 This will start the application @ localhost:5123
 please use following links to do the crud applications
-READ ALL: 
-GET : http://localhost:5123/api/v1/todos/all
-READ ONE: 
-GET http://localhost:5123/api/v1/todos/1
-InsertOne: 
-  POST CALL URL: http://localhost:5123/api/v1/todos/post 
-  headers: title: "RANDOM TEXT"
-DELETE ONE: 
-POST CALL URL : http://localhost:5123/api/v1/todos/del/5
-DELETE ALL: POST : http://localhost:5123/api/v1/todos/del/all
+<ol>
+<li>READ ALL: 
+  <br/>GET http://localhost:5123/api/v1/todos/all</li>
+<li>READ ONE: 
+  <br/>GET http://localhost:5123/api/v1/todos/1</li>
+<li>InsertOne: 
+  <br/>headers: title: "RANDOM TEXT"
+  <br/>POST http://localhost:5123/api/v1/todos/post 
+  </li>
+<li>DELETE ONE: 
+<br/>POST http://localhost:5123/api/v1/todos/del/5
+  <br/>DELETE ALL: POST http://localhost:5123/api/v1/todos/del/all</li>
   
   
   
